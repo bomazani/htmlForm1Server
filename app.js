@@ -3,12 +3,12 @@ const app = express()
 const port = 3000;
 
 // allows us to process submitted form data
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended: true}));
 
 app.post('/', function(req, res) {
   var name = req.body.user_name;
   var message = req.body.user_message;
-  var email = req.body.user_email;
+  var email = req.body.user_mail;
 
   console.log("Name: " + name);
   console.log("Message: " + message);
