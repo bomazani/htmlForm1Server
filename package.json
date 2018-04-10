@@ -1,11 +1,24 @@
 {
   "name": "htmlform1server",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bomazani/htmlForm1Server.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/bomazani/htmlForm1Server/issues"
+  },
+  "homepage": "https://github.com/bomazani/htmlForm1Server#readme",
+  "description": ""
 }
