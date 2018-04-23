@@ -6,6 +6,9 @@ const port = 3000;
 app.use(express.urlencoded({extended: true}));
 
 app.post('/', function(req, res) {
+  // app.post("/register", (req,res)=>{
+    // const username=req.body.username;
+    // )
   var name = req.body.user_name;
   var message = req.body.user_message;
   var email = req.body.user_mail;
